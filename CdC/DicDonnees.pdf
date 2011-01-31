@@ -1,0 +1,191 @@
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+4 0 obj
+% Page dictionary
+<< /Contents 8 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 7 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R5': class PDFCatalog 
+5 0 obj
+% Document Root
+<< /Outlines 9 0 R
+ /PageLabels 10 0 R
+ /PageMode /UseNone
+ /Pages 7 0 R
+ /Type /Catalog >>
+endobj
+% 'R6': class PDFInfo 
+6 0 obj
+<< /Author ()
+ /CreationDate (D:20110131113746-01'00')
+ /Keywords ()
+ /Producer (ReportLab http://www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Dictionnaire de donn\351es) >>
+endobj
+% 'R7': class PDFPages 
+7 0 obj
+% page tree
+<< /Count 1
+ /Kids [ 4 0 R ]
+ /Type /Pages >>
+endobj
+% 'R8': class PDFStream 
+8 0 obj
+% page stream
+<< /Length 2505 >>
+stream
+1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 9.64 Tm /F2 20 Tf 24 TL 118.8049 0 Td (Dictionnaire de donn\351es) Tj T* -118.8049 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 683.0236 cm
+q
+BT 1 0 0 1 0 28.82 Tm .010988 Tw 12 TL /F1 10 Tf 0 0 0 rg (Capteur x : position x par rapport \340 un r\351f\351rentiel de la pression d\351tect\351e Capteur y : position y par rapport) Tj T* 0 Tw 2.384104 Tw (\340 un r\351f\351rentiel de la pression d\351tect\351e Poids : poids de l'objet d\351tect\351 par le capteur de pression) Tj T* 0 Tw (DetectionSol : \351v\350nement pression d\351tect\351e) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 653.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 1.408735 Tw (AllumerLaser : \351v\350nement d'activation du laser deltaT : temps d'allumage du laser Laser T\352ta et Phi :) Tj T* 0 Tw (angles pour la cible du laser) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 623.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL 1.26436 Tw (DetectionRadar : \351v\350nement d\351tection par le radar Radars t\352ta et Phi : angles d\351tect\351s par les radars) Tj T* 0 Tw (pour la position de l'insecte d : distance d\351tect\351e par le radar entre le radar et l'insecte) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 605.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Echantillon Signal : \351chantillon donn\351 par le micro du bruit enregistr\351 de l'insecte) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 575.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .10332 Tw (Robot balayeur x et y : coordonn\351es \340 nettoyer Balayer : \351v\350nement ordonnant le balayage au robot Fini :) Tj T* 0 Tw (\351v\350nement envoy\351 par le balayeur pour indiquer la fin de balayage) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 545.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 16.82 Tm /F1 10 Tf 12 TL .157126 Tw (AllumerTaser : \351v\350nement d'activation du taser deltaV : tension \351lectrique indiqu\351e pour \351radiquer la b\352te) Tj T* 0 Tw (taser t\352ta et phi : angles pour le tir) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 527.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL (Appuyer : \351v\350nement allumage ou extinction du syst\350me) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 228.9949 0 Td (None) Tj T* -228.9949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4.82 Tm /F1 10 Tf 12 TL 228.9949 0 Td (None) Tj T* -228.9949 0 Td ET
+Q
+Q
+ 
+endstream
+
+endobj
+% 'R9': class PDFOutlines 
+9 0 obj
+<< /Count 0
+ /Type /Outlines >>
+endobj
+% 'R10': class PDFPageLabels 
+10 0 obj
+% Document Root
+<< /Nums [ 0
+ 11 0 R ] >>
+endobj
+% 'R11': class PDFPageLabel 
+11 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+xref
+0 12
+0000000000 65535 f
+0000000113 00000 n
+0000000221 00000 n
+0000000386 00000 n
+0000000559 00000 n
+0000000836 00000 n
+0000000991 00000 n
+0000001224 00000 n
+0000001329 00000 n
+0000003935 00000 n
+0000004017 00000 n
+0000004110 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\310\307\005`^\223\024\341R\)\(\313\2524w') (\310\307\005`^\223\024\341R\)\(\313\2524w')] 
+
+ /Info 6 0 R
+ /Root 5 0 R
+ /Size 12 >>
+startxref
+4157
+%%EOF
