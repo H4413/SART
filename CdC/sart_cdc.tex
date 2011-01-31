@@ -36,11 +36,40 @@ donne un schéma général du système.
 Nous listons ici les exigences fonctionnelles que doit remplir 
 \textit{\textbf{Blast 'em all !}}.
 \begin{description}
+\item[Découpage de l'espace]\hfill\\
+Le système s'installe pièce par pièce ; chaque pièce fonctionne ensuite de
+manière indépendante. La configuration peut être globale, propre à chaque
+pièce ou mixte (globale avec des exceptions).
+
 \item[Détection]\hfill\\
-Le système s'installe pièce par pièce. Dans une pièce donnée, 
+Dans une pièce donnée, le système effectue un tracking sur deux types de
+cibles :
+    \begin{itemize}
+    \item objets au sol
+    \item objets en vol
+    \end{itemize}
+    \vskip 6pt
+Tous les objets	\textbf{en mouvement} appartenant à une des deux catégories sont
+suivis. 
+
 \item[Suppression]\hfill\\
-Blabla
+Dans une pièce donnée, les êtres suivis sont neutralisés. La destruction 
+se fait par Laser pour les êtres en vol et par Tazer pour les cibles au
+sol. Les espèces suivantes sont détruites par le système :
+    \begin{itemize}
+    \item Nuisibles volants (mouches, moustiques, papillon de nuit, mouche
+    tsé-tsé, criquets, etc.)
+    \item Nuisibles rampants de taille équivalente ou inférieure à celle
+    d'un gros rat
+    \end{itemize}
+    \vskip 6pt
+
 \item[Purification]\hfill\\
+Une fois qu'un animal a été neutralisé, des restes sont laissés au sol. Le
+système doit disposer d'un module de nettoyage afin de laisser la pièce
+propre après une intervention. Si plusieurs cibles sont suivis et
+neutralisées, le dispositif de nettoyage doit intervenir après la dernière
+élimination et optimiser son parcours de la pièce.
 \end{description}
 
 \section{Exigences non-fonctionnelles}
