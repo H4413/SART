@@ -11,9 +11,8 @@ AllumerLaser : évènement d'activation du laser
 deltaT : temps d'allumage du laser
 Laser Têta et Phi : angles pour la cible du laser
 
-DetectionRadar : évènement détection par le radar
-Radars têta et Phi : angles détectés par les radars pour la position de l'insecte
-d : distance détectée par le radar entre le radar et l'insecte
+DetectionRadar : évènement détection par le capteur infrarouge
+Image : image vue par le capteur infrarouge
 
 Echantillon Signal : échantillon donné par le micro du bruit enregistré de l'insecte
 
