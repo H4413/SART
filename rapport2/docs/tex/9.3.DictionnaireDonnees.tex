@@ -1,0 +1,241 @@
+\section {Dictionnaire des données}
+
+\begin{description}
+	
+	\item [AllerVersPosition]\el
+	Envoie du robot vers une position donnée
+
+	\item [AllerVersStation]\el
+	Envoie du robot vers la station (pour se charger et vider les déchets)
+	\item [alpha]\el
+	Angle d'orientation du tazer, réel, [0,90]
+
+	\item [angle1]\el
+	Coordonnée sphérique d'orientation du laser, réel, [0,90]
+
+	\item [angle2]\el
+	ALIAS angle1
+
+	\item [Appuyer]\el
+	L'interrupteur a été appuyé
+
+	\item [Arrive]\el
+	Le robot balayeur a été arrivé à la destination
+
+	\item [Balayage]\el
+	Nettoyer les cadavres du sol
+
+	\item [balx]\el
+	Cordonnée X du cadavre au sol, réel, [0,50], mètre
+
+	\item [baly]\el
+	Cordonnée Y du cadavre au sol, réel, [0,50], mètre
+
+	\item [BatterieChargee]\el
+	La batterie du robot balayeur a été chargé
+
+	\item [BatterieFaible]\el
+	Niveau faible de batterie du robot balayeur
+
+	\item [batterieRobot]\el
+	Niveau de la charge de la batterie du robot balayeur, réel, [0,100]
+
+	\item [chargeTazer]\el
+	Potentiel vérifié entre les electrodes du tazer, réel, [0,1000], Volt
+
+	\item [ChargeTerminee]\el
+	Le tazer est chargé
+
+	\item [CiblePulverise]\el
+	La cible a été pulvérisé
+
+	\item [CibleTaze]\el
+	La cible a été neutralisé
+
+	\item [compteur]\el
+	Compteur du timer, entier, [0,5000]
+
+	\item [cTempsMax]\el
+	Temps fixe passé pour repositionner le tazer : 1,2 secondes
+
+	\item [DebutTir]\el
+	Initialiser le faisceau de laser
+
+	\item [DechetVide]\el
+	ALIAS FinVidage
+
+	\item [Depassement]\el
+	Valeur d'horloge supérieur au seuil
+
+	\item [deltaV]\el
+	Potentiel appliqué entre les electrodes du tazer, réel, [0,1000], Volt
+
+	\item [FinBalayage]\el
+	Les cadavres ont été enlevé du sol
+
+	\item [FinRamassage]\el
+	Le cadavre a été ramassé
+
+	\item [FinTir]\el
+	Finir le faisceau de laser
+
+	\item [FinVidage]\el
+	Le robot a vidé son compartiment
+
+	\item [h]\el
+	Hauteur de l'image de la source de chaleur ciblé detecté, réel, [0,2], mètre
+
+	\item [l]\el
+	Largeur de l'image de la source de chaleur ciblé detecté, réel, [0,5], mètre
+
+	\item [LaserOriente]\el
+	ALIAS Oriente
+
+	\item [laserX]\el
+	Cordonnée X du centre de l'image de la source de chaleur ciblé detecté, réel, [0,50], mètre
+
+	\item [laserY]\el
+	Cordonnée Y du centre de l'image de la source de chaleur ciblé detecté, réel, [0,50], mètre
+
+	\item [laserZ]\el
+	Cordonnée Z du centre de l'image de la source de chaleur ciblé detecté, réel, [0,5], mètre
+
+	\item [ObjetAuSol]\el
+	Objet au sol détecté
+
+	\item [ObjetAuSolDetecte]\el
+	ALIAS ObjetAuSol
+
+	\item [ObjetDetecte]\el
+	Objet détecté
+
+	\item [ObjetVolant]\el
+	Objet volant détecté
+
+	\item [ObjetVolantDetecte]\el
+	ALIAS ObjetVolant
+
+	\item [Oriente]\el
+	Le laser a été orienté
+
+	\item [Orienter]\el
+	Orienter le laser
+
+	\item [poids]\el
+	Différence de potentiel detecté par le capteur piézoélectrique, cela correspond indirectement au poids de la cible, réel, [0,5], Volt
+
+	\item [puissance]\el
+	Puissance du laser, réel, [0,500], Watt
+
+	\item [puissanceCourante]\el
+	ALIAS puissance
+
+	\item [puissanceInitiale]\el
+	ALIAS puissance
+
+	\item [puissanceNecessaire]\el
+	ALIAS puissance
+
+	\item [cPuissanceNulle]\el
+	Puissance initiale : 0W
+
+	\item [Pulveriser]\el
+	Pulveriser la cible détecté
+
+	\item [RamassageFinir]\el
+	ALIAS FinRamassage
+
+	\item [Ramasser]\el
+	Ramasser le déchet (cadavre de la victime)
+
+	\item [RamasserDechet]\el
+	ALIAS Ramasser
+
+	\item [Rembobine]\el
+	Le tazer a été rembobiné
+
+	\item [Remboniner]\el
+	Rembobiner le tazer
+
+	\item [robotX]\el
+	Cordonnée X du robot balayeur, réel, [0,50], mètre
+
+	\item [robotY]\el
+	Cordonnée Y du robot balayeur, réel, [0,50], mètre
+
+	\item [solX]\el
+	Cordonnée X de la cible detecté au sol, réel, [0,50], mètre
+
+	\item [solY]\el
+	Cordonnée Y de la cible detecté au sol, réel, [0,50], mètre
+
+	\item [StartTimer]\el
+	Initialiser le timer
+
+	\item [T]\el
+	Température de la source de chaleur detecté, réel, [-20,50], Celsius
+
+	\item [Tazer]\el
+	Tazer la cible détecté
+
+	\item [TazerDecharge]\el
+	Le tazer a été déchargé
+
+	\item [TazerRembobine]\el
+	ALIAS Rembobine
+
+	\item [tempsMax]\el
+	Temps max pour le timeout du timer, réel, [0,5000], miliseconde
+
+	\item [tensionD]\el
+	Tension de la roue droite du robot balayeur, réel, [-5,5], Volt
+
+	\item [tensionG]\el
+	Tension de la roue gauche du robot balayeur, réel, [-5,5], Volt
+
+	\item [TimeOut]\el
+	Temps dépassé
+
+	\item [Tirer]\el
+	Tirer le tazer vers la cible	
+
+	\item [TirerTazer]\el
+	ALIAS Tirer
+
+	\item [type]\el
+	Type d'insect volant détecté, entier, [1,3]
+
+	\item [Vider]\el
+	Vider les déchet du compartiment du robot
+
+	\item [ViderDechet]\el
+	ALIAS Vider
+
+	\item [x]\el
+	Cordonnée X du centre de l'image de la source de chaleur ciblé detecté, réel, [0,50], mètre	
+
+	\item [X0]\el
+	Initialisation du timer : 0
+
+	\item [XAtteint]\el
+	Postion X de la cible atteint par le robot
+
+	\item [Xi]\el
+	Variable d'appoint au timer, entier, [0,5000]
+
+	\item [Xj]\el
+	ALIAS Xi
+
+	\item [y]\el
+	Cordonnée Y du centre de l'image de la source de chaleur ciblé detecté, réel, [0,50], mètre
+
+	\item [YAtteint]\el
+	Postion Y de la cible atteint par le robot
+
+	\item [z]\el
+	Cordonnée Z du centre de l'image de la source de chaleur ciblé detecté, réel, [0,50], mètre
+
+\end{description}
+
+\vfill
+\pagebreak

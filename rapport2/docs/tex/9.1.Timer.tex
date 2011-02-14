@@ -1,0 +1,45 @@
+\subsection{Niveau 3 - Timer}
+
+\begin{center}
+\includegraphics[scale=0.8]{\PIXPATH/timer}
+\end{center}
+
+
+\subsubsection{Diagramme état-transition}
+
+\begin{center}
+\includegraphics[scale=0.8]{\PIXPATH/timer_etat}
+\end{center}
+
+\subsubsection{Processus primitifs - C-Spec}
+
+\begin{description}
+	
+	\item \textbf{Comparer}
+		\begin{tabbing} 
+		\textbf{IN} : tempsMax, Xi \\
+		\textbf{OUT} : Depassement\\
+		si \=($tempsMax \leq Xi$) \\
+			\>Depassement emis \\
+		fin si 
+		\end{tabbing}
+
+	\item \textbf{Initialiser}
+		\begin{tabbing} 
+		\textbf{IN} : X0 \\
+		X0 : 0
+		\end{tabbing}
+
+	\item \textbf{Incrementer}
+		\begin{tabbing} 
+		\textbf{IN} : Xi \\
+		\textbf{OUT} : Xj \\
+		$Xj : Xi + 1$
+		\end{tabbing}
+
+
+\end{description}
+
+\vfill
+\pagebreak
+

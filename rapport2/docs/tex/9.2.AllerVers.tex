@@ -1,0 +1,56 @@
+\subsection{Niveau 3 - AllerVers}
+
+\begin{center}
+\includegraphics[scale=0.75]{\PIXPATH/allervers}
+\end{center}
+
+
+\subsubsection{Diagramme état-transition}
+
+\begin{center}
+\includegraphics[scale=0.75]{\PIXPATH/allervers_etat}
+\end{center}
+
+\vfill
+\pagebreak
+
+\subsubsection{Processus primitifs - C-Spec}
+
+\begin{description}
+	
+	\item \textbf{ComparerX}
+		\begin{tabbing} 
+		\textbf{IN} : robotX, balx \\
+		\textbf{OUT} : tensionD, tensionG, XAtteint \\
+		si \=($robotX \ge balx$) \\
+			\>tensionD : 5 \\
+			\>tensionG : 5 \\
+		sinon si ($robotX \le balx$) \\ 
+			\>tensionD : -5 \\
+			\>tensionG : -5 \\
+		sinon \\
+			\>XAtteint emis \\
+		fin si 
+		\end{tabbing}
+
+	\item \textbf{ComparerY}
+		\begin{tabbing} 
+		\textbf{IN} : robotY, baly \\
+		\textbf{OUT} : tensionD, tensionG, YAtteint \\
+		si \=($robotY \ge baly$) \\
+			\>tensionD : 50 \\
+			\>tensionG : 50 \\
+		sinon si ($robotY \le baly$) \\
+			\>tensionD : -50 \\
+			\>tensionG : -50 \\
+		sinon \\
+			\>YAtteint emis \\
+		fin si 
+		\end{tabbing}
+
+
+\end{description}
+
+\vfill
+\pagebreak
+
