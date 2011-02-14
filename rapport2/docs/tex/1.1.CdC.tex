@@ -5,11 +5,11 @@
 
 Notre projet, intitulé \textit{\textbf{Blast 'em all !}}, a pour but la
 surveillance de l'espace interne de la maison. Installé dans chaque pièce
-de l'habitat, le système de défense est capable d'engager à la fois les
-cibles terrestres (rats, araignées, fourmis) et les cibles aériennes
+de l'habitat, le système de défense est capable de s'occuper à la fois des
+cibles terrestres (rats, araignées, fourmis) et des cibles aériennes
 (mouches, moustiques, chauve-souris). Le système comprendra également un
 module de nettoyage d'odeur et de débris afin d'effectuer sa tâche de
-manière transparente pour le propriétaire de la maison. La figure n°1
+manière transparente pour le propriétaire de la maison. La figure n° \ref{sg}
 donne un schéma général du système.
 
 
@@ -24,7 +24,7 @@ manière indépendante. La configuration peut être globale, propre à chaque
 pièce ou mixte (globale avec des exceptions).
 
 \item[Détection]\hfill\\
-Dans une pièce donnée, le système effectue un tracking sur deux types de
+Dans une pièce donnée, le système effectue un {\sl tracking} sur deux types de
 cibles :
     \begin{itemize}
     \item objets au sol
@@ -36,13 +36,13 @@ suivis.
 
 \item[Suppression]\hfill\\
 Dans une pièce donnée, les êtres suivis sont neutralisés. La destruction 
-se fait par Laser pour les êtres en vol et par Tazer pour les cibles au
+se fait par laser pour les êtres en vol et par Tazer pour les cibles au
 sol. Les espèces suivantes sont détruites par le système :
     \begin{itemize}
     \item Nuisibles volants (mouches, moustiques, papillon de nuit, mouche
     tsé-tsé, criquets, etc.)
     \item Nuisibles rampants de taille équivalente ou inférieure à celle
-    d'un gros rat
+    d'un gros rat.
     \end{itemize}
     \vskip 6pt
 
@@ -54,9 +54,9 @@ neutralisées, le dispositif de nettoyage doit intervenir après la dernière
 élimination et optimiser son parcours de la pièce.
 \end{description}
 
-\subsection{Exigences non-fonctionnelles}
+\subsection{Exigences non fonctionnelles}
 
-Nous listons ici les exigences non-fonctionnelles que doit remplir 
+Nous listons ici les exigences non fonctionnelles que doit remplir 
 \textit{\textbf{Blast 'em all !}}.
 \begin{description}
 \item[Déontologie]\hfill\\
@@ -67,11 +67,11 @@ historique de manière à assurer leur traçabilité.
 \item[Ergonomie]\hfill\\
 Le système doit être facilement configurable par tout type d'utilisateur.
 Plusieurs interfaces de configuration doivent être prévues, plus ou moins
-avancées (configuration vocale basique, par smartphone plus avancée et via
+avancées (configuration vocale basique, par {\sl smartphone} plus avancée et via
 un ordinateur experte)
 \item[Évolutivité]\hfill\\
 Le système doit être évolutif, aux niveaux matériel (ajout de nouvelles
-pièces à surveiller) et logiciel (mise-à-jour)
+pièces à surveiller) et logiciel (mise à jour)
 \end{description}
 
 \vfill
